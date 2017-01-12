@@ -1,6 +1,8 @@
 DESCRIPTION
 ===========
 
+[![Build Status](http://104.198.52.171/api/badge/github.com/tonan/tar-cookbook/status.svg?branch=master)](http://104.198.52.171/github.com/tonan/tar-cookbook)
+
 Installs tar and two resources for managing remote tar files.
 `tar_package` handles remote source package compilation.
 `tar_extract` handles retrieving remote tar files and extracting
@@ -78,4 +80,3 @@ This will download, compile, and install the package from the given URL and inst
     end
 
 This will download the tarball to cache, extract the contents to /opt/myapp/mycode, use the file '/opt/myapp/mycode/bin' to determine idempotency, and pass both '-P' and '--strip-components 1' flags to the tar xzf command.
-
